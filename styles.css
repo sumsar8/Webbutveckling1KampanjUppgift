@@ -11,9 +11,10 @@ ul {
 }
 li a {
     color: rgb(240, 240, 240);
-    padding: 5%;
+    padding: 15px;
     text-align: center;
     display: block;
+    text-decoration: none;
 }
 
 body {
