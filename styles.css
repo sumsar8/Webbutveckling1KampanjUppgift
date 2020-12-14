@@ -9,9 +9,11 @@ ul {
     overflow: hidden;
     background-color: rgb(27, 27, 27);
 }
-
-.button {
-
+li a {
+    color: rgb(240, 240, 240);
+    padding: 5%;
+    text-align: center;
+    display: block;
 }
 
 body {
