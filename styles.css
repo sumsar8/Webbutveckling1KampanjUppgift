@@ -22,10 +22,17 @@ li a {
 li a:hover{
     background-color: rgb(139, 4, 4) ;
 }
+
 body {
     margin: 0px;
 }
 
 .firstpage {
     text-align: center;
+    padding-top: 15%;
+}
+
+.infopage {
+    text-align: center;
+    padding-top: 10%;
 }
