@@ -10,7 +10,6 @@ li {
     float: left;
 }
 
-
 li a {
     color: rgb(240, 240, 240);
     padding: 15px;
@@ -43,8 +42,11 @@ body {
 p, h1, h2, h3 {
     color:white;
 }
-
-.spacer {
-    min-height: 50%;
-    max-height: 50%;
+.leftinformationbox {
+    max-width: 40%;
+    float: left;
+}
+.rightinformationbox {
+    max-width: 40%;
+    float: left;
 }
