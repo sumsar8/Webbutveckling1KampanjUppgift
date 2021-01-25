@@ -4,6 +4,10 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(202, 6, 6);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
 }
 
 li {
@@ -26,6 +30,7 @@ li a:hover{
 body {
     margin: 0px;
     background-color: rgb(14, 14, 14);
+    height: 10000px;
 }
 
 .firstpage {
@@ -66,3 +71,7 @@ p, h1, h2, h3 {
     margin-right: 30%;
     max-width: 50%;
 }
+html {
+    scroll-behavior: smooth;
+}
+  
