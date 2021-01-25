@@ -67,6 +67,7 @@ p, h1, h2, h3 {
     outline-color: rgb(139, 4, 4);
 }
 .aboutusbox {
+    margin-top: 50%;
     margin-left: 30%;
     margin-right: 30%;
     max-width: 50%;
@@ -74,4 +75,6 @@ p, h1, h2, h3 {
 html {
     scroll-behavior: smooth;
 }
-  
+.Informationaboveinformationbox {
+    margin-bottom:10%;
+}
