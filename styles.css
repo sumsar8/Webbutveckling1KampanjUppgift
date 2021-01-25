@@ -50,3 +50,8 @@ p, h1, h2, h3 {
     max-width: 40%;
     float: left;
 }
+.aboutusbox {
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 50%;
+}
