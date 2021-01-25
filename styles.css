@@ -42,7 +42,12 @@ body {
 p, h1, h2, h3 {
     color:white;
 }
+.centerinformationbox {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .leftinformationbox {
+    margin-right: 20%;
     max-width: 40%;
     float: left;
 }
