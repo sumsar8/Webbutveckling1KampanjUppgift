@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -28,6 +32,9 @@ li a:hover{
     background-color: rgb(139, 4, 4) ;
 }
 
+.centertopnav {
+    margin-left: 40%;
+}
 body {
     margin: 0px;
     background-color: rgb(14, 14, 14);
@@ -60,35 +67,34 @@ p, h1, h2, h3 {
     float: left;
     outline-style: solid;
     outline-color: rgb(139, 4, 4);
+    outline-offset: 20px;
 }
 .rightinformationbox {
     max-width: 40%;
     float: left;
     outline-style: solid;
     outline-color: rgb(139, 4, 4);
+    outline-offset: 20px;
 }
 .aboutusbox {
-
     margin-left: 30%;
     margin-right: 30%;
     max-width: 50%;
 }
-html {
-    scroll-behavior: smooth;
-}
-.Informationaboveinformationbox {
+
+.Informationabovebox {
     margin-bottom:10%;
+    text-align: center;
 }
-.centertopnav {
-    margin-left: 40%;
-}
+
 .correctscroll {
-    margin-top: 50%;
-    margin-bottom: 30%;
+    margin-top: 30%;
+    margin-bottom: 10%;
     width:100%;
-    height: 100%;
-    background-color: rgb(14, 14, 14);
+    height: 2%;
 }
-.hiddentext{
-    color:rgb(14, 14, 14);
+.boxaroundaboutustext{
+    outline-offset: 20px;
+    outline-style: solid;
+    outline-color: rgb(139, 4, 4);
 }
