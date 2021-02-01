@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -10,7 +11,7 @@ ul {
     position: fixed;
     top: 0px;
     width: 100%;
-    max-height: 6%;
+    max-height: 8%;
     margin:0px;
 }
 
@@ -20,12 +21,14 @@ li {
 
 li a {
     color: rgb(240, 240, 240);
-    padding: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 7px;
+    padding-left: 15px; 
     text-align: center;
     display: block;
     text-decoration: none;
     font-size: 1.3rem;
-    max-height: 2%;
 }
 
 li a:hover{
@@ -39,6 +42,7 @@ body {
     margin: 0px;
     background-color: rgb(14, 14, 14);
     height: 10000px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .firstpage {
@@ -98,3 +102,33 @@ p, h1, h2, h3 {
     outline-style: solid;
     outline-color: rgb(139, 4, 4);
 }
+@media screen and (max-width: 480px) {
+.centertopnav {
+    margin-left: 8%;
+    }
+}
+@media screen and (min-width: 400px) {
+    .centertopnav {
+        margin-left: 15%;
+        }
+    }
+@media screen and (min-width: 480px) {
+    .centertopnav {
+        margin-left: 20%;
+        }
+    }
+@media screen and (min-width: 600px) {
+.centertopnav {
+    margin-left: 30%;
+    }
+}
+@media screen and (min-width: 850px) {
+    .centertopnav {
+        margin-left: 35%;
+        }
+    }
+@media screen and (min-width: 950px) {
+    .centertopnav {
+        margin-left: 40%;
+        }
+    }
