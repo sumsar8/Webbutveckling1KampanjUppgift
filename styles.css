@@ -92,14 +92,16 @@ p, h1, h2, h3 {
 }
 
 .correctscroll {
-    margin-top: 40%;
+    margin-top: 50%;
     margin-bottom: 10%;
     width:100%;
     height: 10px;
     background-color: red;
 }
 .correctscrollinformation{
-    
+    height: 10px;
+    width: 100%;
+    background-color: red;
 }
 .boxaroundaboutustext{
     outline-offset: 20px;
