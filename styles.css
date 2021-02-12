@@ -117,9 +117,6 @@ p, h1, h2, h3 {
     .centertopnav {
         margin-left: 20%;
         }
-    .rightinformationbox{
-
-    }
     }
 @media screen and (min-width: 600px) {
 .centertopnav {
@@ -129,8 +126,8 @@ p, h1, h2, h3 {
 @media screen and (min-width: 850px) {
     .centertopnav {
         margin-left: 35%;
-        }
     }
+}
 @media screen and (min-width: 950px) {
     .centertopnav {
         margin-left: 40%;
