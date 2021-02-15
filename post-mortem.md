@@ -2,10 +2,13 @@ Kanpanj
 Rasmus Öberg 
 15/02/2021
 Inledning
-Här beskriver du kortfattat arbetets syfte/mål, arbetssätt, genomförande. Vad är det för något du har utvecklat. Vilket problem har ditt projekt syftat på att lösa.
+
+Detta projekt inleddes med att vi sattes i slumpade grupper. I dessa grupper så gjorde vi en figma design och valde tema, slogan, mm. Efter detta så fick vi jobba helt enskilt på lektionerna. Jag gjorde en simpel design med en topnav, frontpage, info, about us, och en footer. Jag har utvecklat en simpel sida som sprider information om det pågående viruset.
 
 Bakgrund
 I bakgrunden redogör du för projektets delar, här sammanfattar du din arbetsprocess. Beskriv den teknik du har använt och motivera valet av den. Berätta om ditt planeringsarbete. Försök att inte vara värderande, utan redogör för projektet, hur arbetet gick och dina erfarenheterna skriver du om i de följande delarna.
+
+
 
 Berätta om hur du har testat din produkt.
 
