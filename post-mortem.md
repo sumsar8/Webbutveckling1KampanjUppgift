@@ -11,7 +11,7 @@ Detta projekt inleddes med att vi sattes i slumpade grupper. I dessa grupper så
 Bakgrund
 
 Den första delen av projektet var att göra en design i Figma som är kongenialisk till temat. Vi valde att använda Figma till att göra designen pga att Figma är en väldigt nybörjarvänlig och är väldigt hjälpsam när man ska göra designer till sidor.
-Detta är länken till våran figma design https://www.figma.com/file/rWlh5b4yo9tJDSkOVb1OgY/Webbutveckling-1-TE19-Grupp-3-Covid-19?node-id=0%3A1
+Detta är länken till våran figma design https://www.figma.com/file/rWlh5b4yo9tJDSkOVb1OgY/Webbutveckling-1-TE19-Grupp-3-Covid-19?node-id=0%3A1.
 Då Figma designen blev klar så började vi alla jobba enskilt vilket jag tycker var bra.
 
 
