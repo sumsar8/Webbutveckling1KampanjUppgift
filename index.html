@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="styles.css">
     <title>Corona Virus</title>
 </head>
+<script>
 
+    function onebox(){
+        if(window.innerWidth >= 850){
+            document.getElementById("test").innerHTML = "oga";
+        }
+    }
+    window.onload = window.onresize = onebox;
+</script>
 <body>
     <div id="toppage"></div>
     <header>
         <ul>
             <div class="centertopnav">
                 <li ><a href="#toppage">Top</a></li>
-                </div>
                 <li><a href="#information">Info</a></li>
                 <li><a href="#aboutus">About us</a></li>
-                <li><a href="#footer">asd</a></li>
+                <li><a href="#footer">Bottom</a></li>
+            </div>
         </ul>
     </header>
     <div class="firstpage">
@@ -29,17 +37,15 @@
             <div class="Informationabovebox">
                 <h1>Information</h3>
             </div>
-            <div id="informationbox" class="informationboxborder">
+            <div class="informationboxborder">
                 <p>We want to inform young adults and teenagers about the dangers of the corona virus pandemic that is going on. We know that most people are already informed enough on the subject however a large portion of people are not taking the problem seriously. One of the reasons for us choosing young adults and teenagers is that they are the ones going out partying and meeting with friends the most.</p>
             </div>
-            <div id="informationbox" class="informationboxborder">
+            <div class="informationboxborder">
                 <p>This is one of the worst things you could ever do in this pandemic situation according to a reliable article on the spread of COVID-19. Another reason for us choosing this community of people is because a large majority in this demographic is not vulnerable to the corona virus thus many don’t really try to inhibit any further spread of the virus. Besides just informing  the younger generation we would would like to strongly encourage them to stay home and not to join in on any social activities/gatherings, especially since it is their parents and their future getting punished from their own actions.</p>
             </div>
         </div>
     </div>
-    <div class="infopage">
         <div id="aboutus" class="correctscroll">
-    </div>
         </div>
         <div class="aboutusbox">
             <div class="Informationabovebox">
@@ -52,18 +58,5 @@
     <footer id="footer">
         <p></p>
     </footer>
-    <script>
-        function checksize() {
-            if (window.innerWidth >= 850) {
-                removeinformationbox();
-            }
-        }
-        function removeinformationbox(){
-            document.getElementsByid("informationbox").style.display = "none";
-            document.getElementById("informationbox").className = "firstpage";
-        
-        }
-        
-        </script>
 </body>
 </html>
