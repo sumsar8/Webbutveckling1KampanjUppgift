@@ -50,6 +50,9 @@ body {
     padding-top: 20%;
     padding-bottom: 20%;
 }
+.begone{
+    margin: 0;
+}
 
 .infopage {
     text-align: center;
@@ -137,6 +140,6 @@ footer{
     position: absolute;
     margin-top: 100%;
     width: 100%;
-    height: 10px;
-    background-color: green;
+    height: 50px;
+    background-color: rgb(139, 4, 4);
 }
