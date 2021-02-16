@@ -6,18 +6,6 @@
     <link rel="stylesheet" href="styles.css">
     <title>Corona Virus</title>
 </head>
-<script>
-
-    function onebox(){
-        if(window.innerWidth <= 10){
-            document.getElementById("infoboxid1").innerHTML = "";
-            document.getElementById("infoboxid2").innerHTML = "";
-            document.getElementById("infoboxid1").className = "begone"; 
-            document.getElementById("infoboxid2").className = "begone"; 
-        }
-    }
-    window.onload = window.onresize = onebox;
-</script>
 <body>
     <div id="toppage"></div>
     <header>
@@ -38,14 +26,15 @@
         <div id="information" class="correctscrollinformation"></div>
         <div class="centerinformationbox">
             <div class="Informationabovebox">
-                <h1>Information</h3>
+                <h1>Information</h1>
             </div>
             <div id="infoboxid1" class="informationboxborder">
-                <p>We want to inform young adults and teenagers about the dangers of the corona virus pandemic that is going on. We know that most people are already informed enough on the subject however a large portion of people are not taking the problem seriously. One of the reasons for us choosing young adults and teenagers is that they are the ones going out partying and meeting with friends the most.</p>
+                We want to inform young adults and teenagers about the dangers of the corona virus pandemic that is going on. We know that most people are already informed enough on the subject however a large portion of people are not taking the problem seriously. One of the reasons for us choosing young adults and teenagers is that they are the ones going out partying and meeting with friends the most.
             </div>
-            <div id="infoboxid2" class="informationboxborder">
-                <p>This is one of the worst things you could ever do in this pandemic situation according to a reliable article on the spread of COVID-19. Another reason for us choosing this community of people is because a large majority in this demographic is not vulnerable to the corona virus thus many don’t really try to inhibit any further spread of the virus. Besides just informing  the younger generation we would would like to strongly encourage them to stay home and not to join in on any social activities/gatherings, especially since it is their parents and their future getting punished from their own actions.</p>
+            <div id="infoboxid2" class="informationboxborder2">
+                This is one of the worst things you could ever do in this pandemic situation according to a reliable article on the spread of COVID-19. Another reason for us choosing this community of people is because a large majority in this demographic is not vulnerable to the corona virus thus many don’t really try to inhibit any further spread of the virus. Besides just informing  the younger generation we would would like to strongly encourage them to stay home and not to join in on any social activities/gatherings, especially since it is their parents and their future getting punished from their own actions.
             </div>
+            <div id="infoboxid3" class="informationbox3"></div>
         </div>
     </div>
         <div id="aboutus" class="correctscroll">
@@ -62,4 +51,26 @@
         <p></p>
     </footer>
 </body>
+<script>
+    function onebox(){
+        if(window.innerWidth <= 750){
+            document.getElementById("infoboxid1").innerHTML = "";
+            document.getElementById("infoboxid2").innerHTML = "";
+            document.getElementById("infoboxid1").className = "begone"; 
+            document.getElementById("infoboxid2").className = "begone";
+            document.getElementById("infoboxid3").className = "informationbox3"; 
+            document.getElementById("infoboxid3").innerHTML = "We want to inform young adults and teenagers about the dangers of the corona virus pandemic that is going on. We know that most people are already informed enough on the subject however a large portion of people are not taking the problem seriously. One of the reasons for us choosing young adults and teenagers is that they are the ones going out partying and meeting with friends the most. This is one of the worst things you could ever do in this pandemic situation according to a reliable article on the spread of COVID-19. Another reason for us choosing this community of people is because a large majority in this demographic is not vulnerable to the corona virus thus many don’t really try to inhibit any further spread of the virus. Besides just informing  the younger generation we would would like to strongly encourage them to stay home and not to join in on any social activities/gatherings, especially since it is their parents and their future getting punished from their own actions.";
+        }
+        if(window.innerWidth >= 750){
+            document.getElementById("infoboxid3").className = "begone"; 
+            document.getElementById("infoboxid3").innerHTML = "";
+            document.getElementById("infoboxid1").innerHTML = "We want to inform young adults and teenagers about the dangers of the corona virus pandemic that is going on. We know that most people are already informed enough on the subject however a large portion of people are not taking the problem seriously. One of the reasons for us choosing young adults and teenagers is that they are the ones going out partying and meeting with friends the most.";
+            document.getElementById("infoboxid2").innerHTML = "This is one of the worst things you could ever do in this pandemic situation according to a reliable article on the spread of COVID-19. Another reason for us choosing this community of people is because a large majority in this demographic is not vulnerable to the corona virus thus many don’t really try to inhibit any further spread of the virus. Besides just informing  the younger generation we would would like to strongly encourage them to stay home and not to join in on any social activities/gatherings, especially since it is their parents and their future getting punished from their own actions.";
+            document.getElementById("infoboxid1").className = "informationboxborder"; 
+            document.getElementById("infoboxid2").className = "informationboxborder";
+        }
+    }
+    
+    window.onload = window.onresize = onebox;
+</script>
 </html>
